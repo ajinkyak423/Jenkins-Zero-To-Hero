@@ -2,7 +2,7 @@ pipeline {
   agent {
     docker {
       image 'abhishekf5/maven-abhishek-docker-agent:v1'
-      args "-w ${PWD}"
+      args "-w C:/ProgramData/Jenkins/.jenkins/workspace/cicddemo"
     }
   }
   stages {
